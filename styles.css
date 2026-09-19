@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    color: #2f3a32;
+    background-color: #f8faf7;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 7%;
+    background-color: #f8faf7;
+    border-bottom: 1px solid #dfe7df;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #365c40;
+    text-decoration: none;
+}
+
+nav a {
+    margin-left: 25px;
+    color: #465348;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #4d8058;
+}
+
+
+
+.hero {
+    padding: 80px 7%;
+    background-color: #edf5ed;
+}
+
+
+.neco {
+    color: #66896d;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #294332;
+    margin: 10px 0 20px;
+}
+
+.hero p {
+    color: #68736a;
+    font-size: 18px;
+}
+
+
+.section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px 7%;
+}
+
+.section h2 {
+    color: #294332;
+    font-size: 35px;
+}
+
+.section-intro {
+    color: #69746b;
+}
+
+
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.plantcard {
+    padding: 25px;
+    min-height: 180px;
+    border: 1px solid #dfe7df;
+    border-radius: 8px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.plantcard:hover {
+    border-color: #9fbea4;
+}
+
+.plantcard h3 {
+    color: #35583e;
+    font-size: 22px;
+}
+
+.plantcard p {
+    color: #707a72;
+}
+
+.plantcard span {
+    color: #4d8058;
+    font-weight: bold;
+}
+
+.soon {
+    opacity: 0.55;
+}
+
+
+
+.guides {
+    max-width: none;
+    background-color: #edf5ed;
+}
+
+.guide-grid {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.guide {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dfe7df;
+    border-radius: 8px;
+}
+
+.guide h3 {
+    color: #35583e;
+}
+
+.guide p {
+    color: #707a72;
+}
+
+
+
+.about {
+    max-width: 800px;
+}
+
+.about p {
+    color: #68736a;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #f8faf7;
+    border-top: 1px solid #dfe7df;
+    color: #788178;
+}
+
+
+
+@media (max-width: 700px) {
+
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    .plant-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .guide-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+}
