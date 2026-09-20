@@ -115,6 +115,7 @@ nav a:hover {
 
 
 .guides {
+    max-width: none;
     background-color: #edf5ed;
 }
 
