@@ -41,7 +41,6 @@ nav a:hover {
     background-color: #edf5ed;
 }
 
-
 .neco {
     color: #66896d;
     font-size: 13px;
@@ -116,12 +115,10 @@ nav a:hover {
 
 
 .guides {
-    max-width: none;
     background-color: #edf5ed;
 }
 
 .guide-grid {
-    max-width: 1000px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -165,30 +162,3 @@ footer {
 
 
 
-@media (max-width: 700px) {
-
-    .header {
-        display: block;
-        text-align: center;
-    }
-
-    nav {
-        margin-top: 15px;
-    }
-
-    nav a {
-        margin: 0 8px;
-    }
-
-    .plant-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .guide-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .hero h1 {
-        font-size: 40px;
-    }
-}
